@@ -5,7 +5,7 @@
         string Name { get; set; }
         string CardNumber { get; set; }
         string ExpireDate { get; set; }
-        ushort CCV { get; set; }
+        ushort CVC { get; set; }
         float ItemTotal { get; set; }
         float BundleTotal { get; set; }
         float TaxTotal { get; set; }

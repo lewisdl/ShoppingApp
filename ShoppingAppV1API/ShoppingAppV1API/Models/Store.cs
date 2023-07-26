@@ -13,6 +13,9 @@ namespace ShoppingAppV1API.Models
 
 
 
-        public SortedList<string,Item> GetAllItems() { return  Items; }
+        public SortedList<string,Item> GetAllItems() 
+        { 
+            return Items; 
+        }
     }
 }

@@ -2,7 +2,8 @@
 {
     public interface ICart
     {
-        public string Id { get; set; } //Id for carts have to be in string
+        public int Id { get; set; } //Id for carts have to be in string
+        public string Name { get; set; }
         public int MinItems { get; set; }
         public float MinItemsFee { get; set; }
         public void AddItemToCart(Item item);

@@ -1,11 +1,14 @@
 ﻿using ShoppingAppV1API.Models.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShoppingAppV1API.Models
 {
-    public class Item : IItem
+    public class Item
     {
-        public string Id { get; set; }
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
+        public string ImagePath { get; set; }
         public string Type { get; set; }
         public int Quantity { get; set; }
         public float Price { get; set; }
